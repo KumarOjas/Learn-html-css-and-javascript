@@ -2,7 +2,7 @@ var myAccountBalance =300;
 var nikeSBShoes=799.23;
 var coupon=500;
 //== equal to
-//==??
+//===??
 //<=less than or equal to
 //>=greater than or equal to
 
@@ -20,3 +20,69 @@ console.log("Account Balance:"+ myAccountBalance);
 else {
 console.log("You too broke for shoes bro!");
 }
+
+
+//Example 2
+var myAccountBalance=300;
+var nikeSBShoes=799.23;
+var coupon=500;
+//== equal to
+//===??
+//<=less than or equal to
+//>=greater than or equal to
+var number1 = 23;
+var number2 = "23";
+if(age==joesAge)
+{
+console.log(I'm the same as Ojas!");
+}
+
+
+//Example 2
+var myAccountBalance =300;
+var nikeSBShoes=799.23;
+var coupon=400;
+
+if(nikeSBShoes <= myAccountBalance)
+{
+myAcoountBalance -=nikeSBShoes;
+console.log("We just bought some dope shoes!");
+console.log("Account Balance:"+ myAccountBalance);
+}
+else if(nikeSBShoes -coupon<=myAccountBalance) 
+{
+console.log("We just bought some dope shoes with a coupon!");
+myAccountBalance-= nikeSBShoes - coupon;
+consol.log("Account Balance:"+myAccountBalance);
+}
+else{
+console.log("You too broke fo shoes bra!");
+}
+
+
+//Example 3
+var val1=23;
+var val2="23";
+if(val1==val2)
+{
+console.log("These are the same!");
+}
+else
+{
+console.log("One of these is mot")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
