@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+ <script type= "text/javascript">
+ var name="Ojas"
+ var age=19;
+ var message="Hi,my name is"+ name +"and I am "+ age + "years old! ";
+ alert(message);
+ </script>
+</body>
+</html>
+ 
+   Output:
+   This page says:
+   Hi,my name is Ojas and I am 19 years old!
