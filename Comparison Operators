@@ -69,7 +69,8 @@ console.log("These are the same!");
 }
 else
 {
-console.log("One of these is mot")
+console.log("One of these is not like the other");
+}
 
 
 
