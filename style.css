@@ -1,3 +1,8 @@
+p {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-family: Arnoldboecklin, fantasy;
+}
+
 body {
     background-color: ghostwhite;
 }
@@ -47,6 +52,17 @@ header {
     box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
 }
 
+.nav_menu li a:hover {
+    background-color:aquamarine;
+    /*-webkit-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2);*/
+    
+    animation: myRotate 3s infinite;
+    -webkit-animation: myRotate 3s infinite;
+    -moz-animation: myRotate 3s infinite;
+}
+
 .nav_menu a {
     display: block;
     width: 80px;
@@ -83,20 +99,32 @@ header {
     background-color: #e8e8e8;
     float: left;
     width: 40%;
-    height: 200px;
+    height: 320px;
     padding: 10px;
     margin: 20px;
     box-shadow: 10px 10px 5px #888888;
+}
+
+#leftDiv img {
+    max-height 100px;
+    max-width: 100px;
+    float:right;
 }
 
 #rightDiv {
     background-color: #e8e8e8;
     float: right;
     width: 40%;
-    height: 200px;
+    height: 320px;
     padding: 10px;
     margin: 20px;
     box-shadow: 10px 10px 5px #888888;
+}
+
+#rightDiv img {
+    max-height 100px;
+    max-width: 100px;
+    float:right;
 }
 
 footer {
@@ -107,4 +135,119 @@ footer {
     padding-right: 20px;
     padding-top: 15px;
     box-shadow: 10px 10px 5px #888888;
+}
+
+/*Animation Elements*/
+@keyframes fadeIn {from {opacity: 0;} to {opacity:1;} }
+@-webkit-keyframes fadeIn {from {opacity: 0;} to {opacity:1;} }
+@-moz-keyframes fadeIn {from {opacity: 0;} to {opacity:1;} }
+
+.fade-in {
+    opacity: 0;
+    
+    animation: fadeIn ease-in 1;
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;   
+}
+
+@keyframes fadeOut {from {opacity: 1;} to {opacity:0;} }
+@-webkit-keyframes fadeOut {from {opacity: 1;} to {opacity:0;} }
+@-moz-keyframes fadeOut {from {opacity: 1;} to {opacity:0;} }
+
+.fade-out {
+    opacity: 1;
+    
+    animation: fadeOut ease-in 1;
+    -webkit-animation: fadeOut ease-in 1;
+    -moz-animation: fadeOut ease-in 1;
+    
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;   
+}
+
+.myFadeOut:hover {
+    opacity: 1;
+    
+    animation: fadeOut ease-in 1;
+    -webkit-animation: fadeOut ease-in 1;
+    -moz-animation: fadeOut ease-in 1;
+    
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s; 
+}
+
+/*rotate*/
+@keyframes myRotate {
+    0%  {transform: rotate(0deg);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes myRotate {
+    0%  {transform: rotate(0deg);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@-moz-keyframes myRotate {
+    0%  {transform: rotate(0deg);}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+/*Move*/
+@keyframes myMove {
+    0%  {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+@-webkit-keyframes myMove {
+    0%  {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+@-moz-keyframes myMove {
+    0%  {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+#welcomeDiv h2 {
+    position: relative;
+    
+    animation: myMove 5s infinite;
+    -webkit-animation: myMove 5s infinite;
+    -moz-animation: myMove 5s infinite;
 }
