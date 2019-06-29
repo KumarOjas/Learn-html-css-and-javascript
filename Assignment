@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title> Our new webpage</title>
+</head>
+<body>
+<div class="container">
+<header>
+<div id="logo"></div>
+<ul class="nav menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Me</a></li>
+<li><a href="contact.html">Contact us</a></li>
+</ul>
+</header>
+<section id="mainBody">
+   <div id="welcomeDiv"><h2>Welcome to my page</h2></div>
+   <div id="newsLetter"></div>
+   
+    <div id="leftDiv"></div>
+     <div id="rightDiv"></div> 
+</section>
+ 
+ <footer> Copyright Mine</footer>
+ </div>
+ </body>
+ </html>
+ 
+ 
+ Output:
+ *Home
+ *About Me
+ *Contact Us
+ 
+ Copyright Mine
