@@ -1,0 +1,49 @@
+var students =["Timmy","Janessa","Arun"];
+var naughtyList =[];
+naughtyList.push(students[0]);
+var index =naughtyList.indexOf("Timmy");
+console.log(naughtyList);
+if(index >-1){
+naughtyList =naughtyList.splice(index,1);
+}
+
+
+
+
+console.log(naughtyList);
+
+
+Output:Timmy
+
+
+var balances=[50.45,4000.12,-300.50];
+var studentNames =["Timmy","Janessa","Arun"];
+var naughtyList =[];
+naughtyList.push(studentName[0]);
+var index =naughtyList.indexOf("Timmy");
+console.log(naughtyList);
+if(index >-1)
+{
+naughtyList.splice(index,1);
+
+}
+console.log(naughtyList);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
