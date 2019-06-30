@@ -10,6 +10,7 @@
 <input type="submit" value="Calculate">
 </form>
 <h3> Result:100% </h3>
+<script type="text/javascript" src="calc.js"></script>
 </body>
 </html>
 
