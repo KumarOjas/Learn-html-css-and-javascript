@@ -39,9 +39,33 @@ var percent= result*100;
 
 resultField.innerText ="Answer:" + percent +"%";
 //In order to display the result with certain sentences
+
 event.preventDefault();
 
 
 
 
 }});
+
+
+
+
+Output:
+Percentage Calculators
+ 
+ X is what % of Y?
+ 
+ [ 200]   is what % of [5000]?
+ 
+ [Calculate]
+
+Answer:4%
+
+
+
+
+
+
+
+
+
