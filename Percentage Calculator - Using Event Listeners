@@ -39,6 +39,13 @@ if(!numField1.value || !numField2.value)
 var x=parseFloat(numField1.value);
 var y=parseFloat numField2.value;
 
+var result = x/y;
+var percent= result*100;
+
+alert(percent);
+
+
+
 
 }});
 
