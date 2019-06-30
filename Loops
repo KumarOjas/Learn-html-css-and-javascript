@@ -1,0 +1,43 @@
+//Example 1
+var someVal=10;
+for(x=0;x<someVal;x++){
+ console.log(x);
+ } 
+ 
+ //Example 2
+ var students=["John","Jacob","Jingle","Heimer","Smith"];
+ for(var index=0;index<students.length;index++)
+ {
+ console.log(students[index]);
+ }
+ 
+ Output:
+ 
+ John
+ Jacob
+ Jingle
+ Heimer
+ Smith
+ 
+ //Example 3
+ var students=["John","Jacob","Jingle","Heimer","Smith"];
+ for(var index=0;index<=students.length;index++)
+ {
+ console.log(students[index]);
+ }
+ 
+ Output:
+  
+ John
+ Jacob
+ Jingle
+ Heimer
+ Smith
+ Undefined
+ 
+ 
+ 
+ 
+ 
+ 
+ 
