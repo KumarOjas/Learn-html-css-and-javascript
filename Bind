@@ -1,0 +1,51 @@
+//Example 1
+this.car="Honda Civic w/Ugly Spoiler";
+var marksGarage ={
+car:"Aston Martin",
+getCar: function() {
+return this.car;
+}};
+console.log(markGarage.getCar());
+
+
+
+Output:"Aston Martin"
+//Example 2
+
+this.car="Honda Civic w/Ugly Spoiler";
+var marksGarage ={
+car:"Aston Martin",
+getCar: function() {
+return this.car;
+}};
+console.log(markGarage.getCar());
+
+Output:
+"Aston Martin"
+"Honda Civic w/Ugly Spoiler"
+
+
+//Example 3
+
+this.car="Honda Civic w/Ugly Spoiler";
+var marksGarage ={
+car:"Aston Martin",
+getCar: function() {
+return this.car;
+}};
+console.log(markGarage.getCar());
+var storeGetCarForLater =marksGarage.getCar;
+//Now work is over and Mark wants his car
+console.log(storeGetCarforLater());
+
+var theRealGetCarFunction =marksGarage.getCar.bind(marksGarage);
+console.log(theRealGetCarFunction());
+
+
+
+Output:
+"Aston Martin"
+"Honda Civic w/Ugly Spoiler"
+"Aston Martin"
+
+
