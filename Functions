@@ -1,0 +1,146 @@
+var length1=15;
+var width=10;
+var area1= length1*width1;
+
+
+var length2=12;
+var width2=14;
+var area1= length2*width2;
+
+
+*/
+function area(length,width)
+{
+return length*width;
+}
+
+var area1=area(10,15);
+console.log(area1);
+*/
+
+function area(length,width)
+{
+return length*width;
+}
+
+
+var rectanglesAreas=[]
+rectangleAreas.push(area(10,15));
+rectangleAreas.push(area(14,2));
+rectangleAreas.push(area(4,5));
+
+console.log(rectanglesAreas);
+Output:[150,28,20]
+Array[3]
+0:150
+1:28
+2:20
+length:3
+
+
+
+
+//Example 2
+
+var bankBalance=500;
+
+function makeTransaction(priceOfSale){
+if(priceOfSale <= bankBalnce) {
+bankBalance -=priceOfSale;
+console.log("Purchase Successful");
+}
+else
+{
+console.log("Insufficient Funds");
+}}
+
+console.log(bankBalance);
+makeTransaction(79.00);
+
+console.log(bankBalance);
+makeTransacton(79.00);
+console.log(bankBalance);
+makeTransaction(2.32);
+console.log(bankBalance);
+makeTransaction(10.45);
+Output: [150,28,20]
+500
+Purchase Successful
+421
+Purchase Successful
+418.68
+Purchase Successful
+
+
+
+//Example 3
+var transaction= function(priceOfSale)
+{
+if(priceOfSale<= bankBalance)
+{
+bankBalance -=priceOfSale;
+console.log("Purchase Successful");
+}
+else
+{
+console.log("Insufficient Funds");
+
+}
+};
+var printCustomerName =function(first,last) {
+console.log("First Name:" + first +"Last Name:" +last);
+}
+var applyForCreditCard = function(creditScore,soul)
+//call some functions to process application
+}
+
+
+var bankOperations=[];
+bankOperations.push(transaction);
+bankOperations.push(printCustomerName);
+bankOperations.push(applyForCreditCard);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
