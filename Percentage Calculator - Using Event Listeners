@@ -1,0 +1,80 @@
+/*
+Both <button type="submit"> and <input type="submit"> display as buttons and cause the form data to be
+submitted to the server. The difference is that <button> can have content, whereas <input> cannot (it is
+a null element).
+*/
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<h1> Percentage Calculators</h1>
+<p> X is what % of Y? </p>
+<form id="xIsWhatPercentOfY">
+<input type="text" id="numField1"> is what % of
+<input type="text"  id="numField2">?<br><br> 
+<input type="submit"  value="Calculate">
+</form>
+<h3 id="resultField">Result:100%</h3>
+<script type="text/javascript" src="calc.js"></script>
+</body>
+</html>
+
+
+//In order to put values
+var numField1=document.getElementById('numField1');
+var numField2=document.getElementById('numField2');
+var resultField =document.getElementById('resultField');
+var  form =document.getElementById('xIsWhatPercentOfY');
+
+
+form.addEventListener('submit',function() { 
+if(!numField1.value || !numField2.value)
+{
+ alert("Please enter values in the fields");
+ }
+ else
+ {
+
+
+var x=parseFloat(numField1.value);
+var y=parseFloat numField2.value;
+
+
+}});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
