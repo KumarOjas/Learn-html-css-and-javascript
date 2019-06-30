@@ -1,0 +1,235 @@
+//Create a new empty object
+
+var student ={
+firstName ="John",
+lastName ="Parker",
+age=7
+};
+
+console.log(student.firstName);
+console.log(student.lastName);
+console.log(student["firstName"]);
+console.log(student["lastName"]);
+
+
+Output:
+
+John
+Parker
+John
+Parker
+
+
+
+
+var student0=
+{
+firstName: "Jayne",
+lastName:"Loooo",
+age:8
+};
+
+//Create a new empty object
+ 
+var student1 =new Object();
+student1.firstName ="John";
+student1.lastName ="Parker";
+student1.age=7;
+};
+
+
+var student2 ={};
+student2.firstName ="Zack";
+student2.lastName ="Bobo";
+student2.age=5;
+;
+
+
+var students = [];
+students.push(student0);
+students.push(student1);
+students.push(student2);
+
+for (var index=0;index<students.length; index++)
+{
+console.log(students[index]);
+}
+
+Output:
+Object
+age:8
+firstName:"Jayne"
+lastName:"Looo"
+__proto__:Object
+
+Object
+age:7
+firstName:"John"
+lastName:"Parker"
+__proto__:Object
+
+
+Object
+age:5
+firstName:"Zack"
+lastName:"Bobo"
+__proto__:Object
+
+
+//Example 2
+var students=[];
+
+
+function student(first,last,age)
+{
+this.firstName=first;
+this.lastName=last;
+this.age=age;
+this.greeting= function() {
+return"Hi,I'm"+this.firstName +"and I'm"+this.age+"years old";
+ 
+};
+}
+var s1= new student("Jenny","Laga",5);
+console.log(s1);
+console.log(s1.greeting());
+
+Output:
+student
+age:5
+firstName:"Jenny"
+greeting:()
+lastName:"Laga"
+Hi,I'm Jenny and I'm 5 years old.
+
+
+
+
+
+var students= [];
+function Student(first,last,age) {
+   this.firstName =first;
+   this.lastName=last;
+   this.age=age;
+   this.greeting= function() {
+   return "Hi,I'm"+this.firstName+"and I'm"+  this.age + "years old.";
+  };
+  }
+  
+  students.push(new student("Jenny","Laga",5));
+  
+  students.push(new student("Timmy","Turner",8));
+  
+  
+  students.push(new student("Carl","Jr",4));
+  
+for(var index=0;index<student.length;index++)
+{
+var student=students[index];
+console.log(student.greeting());
+}
+
+
+
+
+Output:
+Hi,I'm Jennny and I'm 5 years old.
+Hi,I'm Timmy and I'm 8 years old.
+Hi,I'm Carl and I'm 4 years old.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
