@@ -1,0 +1,52 @@
+{
+"name": "first-api",
+"version":"1.0.0",
+"description": "This is the first API",
+"main":"server.js",
+"scripts":
+{
+"test":"echo\"Error: no test specified\"&& exit 1",
+"start": "node server.js"
+},
+"author": "Ojas Kumar",
+"license":"ISC"
+}
+
+var express =require('express');
+var app =express();
+app.get('/',function(request,response){
+
+response.send('My first API');
+});
+
+app.listen(3000,function(){
+console.log("First API running on port 3000!");
+});
+
+ALternate:
+
+var express =require('express');
+var app =express();
+app.get('/',function(request,response){
+
+response.send('My first API');
+});
+app.get('/funions',function(req,res){
+res.send('Yo give me some funions foo!');
+});
+
+
+
+app.listen(3000,function(){
+console.log("First API running on port 3000!");
+});
+
+
+
+
+
+
+
+
+
+
