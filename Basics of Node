@@ -1,0 +1,47 @@
+node
+var someNum =15;
+someNum + 10;
+Output:25
+
+(^C again to quit)
+
+mkdir test
+cd test
+touch test.js
+vim test.js
+node test.js
+test.js
+50
+//Background program 1
+
+var rs =require('readline-sync');
+var anewnum=30;
+var anewnum =20;
+console.log(aNewNum + aNewNewNum);
+
+On windows,just make a .js file instead of vim file
+//Background program 2
+
+var.name= rs.question('What is your name?');
+
+console.log("Your name is"+name);
+
+Terminal:What is your name?Ojas
+Your name is Ojas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
